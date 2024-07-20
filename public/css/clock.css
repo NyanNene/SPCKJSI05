@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .clock {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px; /* Bo góc thành hình tròn */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  }
+  
+  .clock-display {
+    margin-bottom: 10px;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .controls button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Màu nút Start */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #45a049; /* Màu nút Start khi hover */
+  }
+  
+  .controls button:last-child {
+    background-color: #f44336; /* Màu nút Remove */
+  }
+  
+  .controls button:last-child:hover {
+    background-color: #d32f2f; /* Màu nút Remove khi hover */
+  }
+  
+  /* Số thứ tự của các đồng hồ */
+  .clock-index {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333; /* Màu chữ cho số thứ tự */
+  }
+  

@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "img":"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_828x828/https://cdn.tgdd.vn/Files/2023/10/06/1550665/9-mon-ngon-mua-thu-chac-chan-ban-phai-thu-it-nhat-1-lan-202310061024567893.jpg",
+        "tiltle":"Xôi cốm",
+        "price": "15.000Đ"
+    },
+    {
+        "id":2,
+        "img":"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_828x828/https://cdn.tgdd.vn/Files/2023/10/06/1550665/9-mon-ngon-mua-thu-chac-chan-ban-phai-thu-it-nhat-1-lan-202310061029131274.jpg",
+        "tiltle": "Nem Chua Rán",
+        "price": "8.000Đ"
+    },
+    {
+        "id": 3,
+        "img": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_828x828/https://cdn.tgdd.vn/Files/2023/10/06/1550665/9-mon-ngon-mua-thu-chac-chan-ban-phai-thu-it-nhat-1-lan-202310061032157594.jpg",
+        "tiltle": "Thịt Xiên Nướng", 
+        "price": "10.000Đ"
+        
+    },
+    {
+        "id": 4,
+        "img": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_828x828/https://cdn.tgdd.vn/Files/2023/10/06/1550665/9-mon-ngon-mua-thu-chac-chan-ban-phai-thu-it-nhat-1-lan-202310061032385741.jpg",
+        "tiltle": "Chả rươi", 
+        "price": "20.000Đ"
+        
+    },
+    {
+        "id": 5,
+        "img": "https://images2.thanhnien.vn/Uploaded/yennh/2022_09_28/sua-vang-4176.jpg",
+        "tiltle": "Sữa Vàng", 
+        "price": "20.000Đ"
+        
+    },
+    {
+        "id": 6,
+        "img": "https://images2.thanhnien.vn/Uploaded/yennh/2022_09_28/ca-phe-dalgona-2506.jpg",
+        "tiltle": " Cà phê Dalgona", 
+        "price": "35.000Đ"
+        
+    }
+
+]

@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "jsi-05",
+    "yes": "jsi-05"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

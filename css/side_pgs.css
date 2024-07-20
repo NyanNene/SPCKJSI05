@@ -1,0 +1,14 @@
+.banner{
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 40px;
+}
+.Scontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}

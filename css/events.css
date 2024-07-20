@@ -1,0 +1,142 @@
+.banner{
+    background-image: url('https://tokyo-human.edu.vn/wp/wp-content/uploads/2023/09/tt.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    font-size: 500%;
+    line-height: 100%;
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url('back.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner h1 {
+        margin-left: 10%;
+    }
+}
+
+.e_content p{
+padding-bottom: 10px;
+}
+.exotic_container {
+    margin: 40px 0px 0px 40px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
+.exotic_container .card{
+    background-color: #BF571B;
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    background: white;
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s ;
+    &:after,
+    &:before {
+        content: " ";
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        border: 0px solid #fff;
+        transition: all 1s;
+    }
+
+    &:after {
+        top: -1px;
+        left: -1px;
+        border-top: 5px solid black;
+        border-left: 5px solid black;
+    }
+
+    &:before {
+        bottom: -1px;
+        right: -1px;
+        border-bottom: 5px solid black;
+        border-right: 5px solid black;
+    }
+
+    &:hover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        background: rgba(0, 0, 0, .5);
+        color: white;
+
+        &:before,
+        &:after {
+
+            width: 100%;
+            height: 100%;
+            border-color: white;
+        }
+    }
+}
+.exotic_container a{
+    text-decoration: none;
+    color: black;
+}
+.exotic_container .card-body{
+    background-color:#BF571B;
+    padding: none;
+}
+
+.exotic_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 20px; /* Điều chỉnh khoảng cách xung quanh */
+}
+
+.card {
+    width: 300px; /* Kích thước mặc định cho card */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi */
+    border-radius: 10px; /* Bo tròn góc */
+    overflow: hidden; /* Đảm bảo hình ảnh không bị tràn */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Hiệu ứng nhấp nháy khi rê chuột vào */
+}
+
+.card img {
+    width: 100%;
+    height: auto; /* Đảm bảo hình ảnh không bị giãn ra */
+    object-fit: cover; /* Hiển thị hình ảnh toàn bộ */
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); /* Điều chỉnh kích thước cho màn hình nhỏ hơn */
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: calc(100% - 20px); /* Thay đổi kích thước cho màn hình rất nhỏ */
+    }
+}

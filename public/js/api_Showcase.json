@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "href": "./Foods.html",
+        "img": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_75,s_828x828/https://cdn.tgdd.vn/Files/2023/10/06/1550665/9-mon-ngon-mua-thu-chac-chan-ban-phai-thu-it-nhat-1-lan-202310061028433862.jpg",
+        "tiltle": "Đồ ăn",
+        "text": "Đường nhanh nhất đến lòng một người là qua đường dạ dày"
+        
+    },
+    {
+        "id":2,
+        "href": "./Drinks.html",
+        "img":"https://cdn.tgdd.vn/2020/12/CookProduct/thumb1-1200x676-10.jpg",
+        "tiltle":"Đồ uống",
+        "text": "Ở đây chứa những nước uống ngon, bổ, rẻ trong mùa thu"
+    },
+    {
+        "id":3,
+        "href": "./Events.html",
+        "img":"https://hnm.1cdn.vn/2022/09/10/hanoimoi.com.vn-uploads-images-tuandiep-2022-09-10-_1_-hoi-an.jpg",
+        "tiltle":"Sự kiện",
+        "text": "Các sự kiện phổ biến , hấp dẫn , náo nhiệt trong mùa thu"
+    }
+]
